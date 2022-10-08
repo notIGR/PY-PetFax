@@ -17,7 +17,7 @@
             {% for pet in pets %}
                 <div class="pet">
                     <H2>{{ pet.pet_name }}</H2>
-                    <img src="{{ url_for('static', filename='assets/') }}{{pet.pet_photo}}"/>
+                    <img src="{{pet.pet_photo}}"/>
                     <a href="/pets/{{ pet.pet_id }}">Learn more ⟩</a>
                 </div>
             {% endfor %}

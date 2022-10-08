@@ -14,6 +14,3 @@ def create_app():
 
     # return the app 
     return app
-
-
-

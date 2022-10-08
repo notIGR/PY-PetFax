@@ -14,7 +14,7 @@ def create_app():
 
     #register fact blueprint
     from . import fact
-    app.register_blueprint(pet.bp)
+    app.register_blueprint(fact.bp)
 
     # return the app 
     return app
